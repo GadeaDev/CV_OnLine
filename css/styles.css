@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    font-size: 72.5%;
+    font-size: 75.5%;
 
 }
 
@@ -189,9 +189,6 @@ section.resume-section .resume-item .resume-date {
     }
 
 }
-
-
-
 
 .bg-primary {
     background-color: var(--primario1) !important
