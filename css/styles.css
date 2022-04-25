@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    font-size: 62.5%;
 }
 
 *, *:before, *:after {
@@ -107,6 +108,10 @@ p.lead {
 }
 
 @media (min-width:992px) {
+    html{
+        font-size: 100%;
+    }
+    
     #sideNav {
         text-align: center;
         position: fixed;
