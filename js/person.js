@@ -35,7 +35,15 @@ var person = {
 
     ],
     jobs: [
-        {
+           {
+            company: "Wallcoms del Uruguay ., Montevideo Uruguay",
+            title: "Técnico de Telecomiunicaciones",
+            year_from: 2022,
+            year_to: "Actualmente",
+            tareas: "Gestión de la cartera de clientes existentes y generación constante de nuevos clientes potenciales identificando las necesidades y oportunidades de mejora en su gestión administrativa , asesorar al cliente en la venta consultiva de herramientas informáticas para la gestión administrativa promocionando el uso de sistemas ERP, (puntualmente en Sistema KORE ERP), Análisis de situación actual de la empresa y presentación de soluciones enmarcadas dentro del flujo de trabajo del Sistema KORE, Participación en reuniones con clientes para relevar situación actual y presentaciones de demostración del sistema KORE, Elaboración y presentación de propuestas económicas a cada cliente contemplando las funcionalidades, módulos y usuarios necesarios para optimizar la gestión administrativa de la empresa con el uso del sistema KORE ERP, seguimiento de necesidades de los clientes en cuanto a la seguridad informática ofreciendo el servicio de Administración de Seguridad Remota y el servicio de Mantenimiento de Infraestructura Informática, Administración y Virtualización de Servidores, Evaluar y Recomendar a los clientes en cuanto la renovación o adquisición del Hardware necesario para las actividades de la empresa (Pc, Servidores, Routers, UPS, Switchs, UTM, entre otros), Gestionar las Licencias de Software y Antivirus requeridas para cada cliente.",
+        },
+        
+        {     
             company: "Númina S.A., Montevideo Uruguay",
             title: "Asesor Comercial Jr.",
             year_from: 2021,
