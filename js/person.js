@@ -35,13 +35,13 @@ var person = {
 
     ],
     jobs: [
-        {
-            company: "Wallcoms del Uruguay S.R.L.., Montevideo Uruguay",
-            title: "Técnico de Telecomunicaciones",
-            year_from: 2022,
-            year_to: "Actualmente",
-            tareas: "Instalación de Equipos de transmisión y recepción de Telecomunicaciones (Antenas de Telefonía Móvil Celular, Gabinetes, Radios RRU) adecuación de salas de control de datos y Fibra Óptica, Tendido de Cableado estructurado, Relevamientos técnicos en las distintas instalaciones de telefonía existentes en todo el territorio del Uruguay, cumpliendo con los más altos estándares internacionales para la satisfacción del cliente.",
-        },
+        // {
+        //     company: "Wallcoms del Uruguay S.R.L.., Montevideo Uruguay",
+        //     title: "Técnico de Telecomunicaciones",
+        //     year_from: 2022,
+        //     year_to: "Actualmente",
+        //     tareas: "Instalación de Equipos de transmisión y recepción de Telecomunicaciones (Antenas de Telefonía Móvil Celular, Gabinetes, Radios RRU) adecuación de salas de control de datos y Fibra Óptica, Tendido de Cableado estructurado, Relevamientos técnicos en las distintas instalaciones de telefonía existentes en todo el territorio del Uruguay, cumpliendo con los más altos estándares internacionales para la satisfacción del cliente.",
+        // },
 
         {
             company: "Númina S.A., Montevideo Uruguay",
