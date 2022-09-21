@@ -64,7 +64,7 @@ p.lead {
     font-size: 1.5rem
 }
 
-.social-icons a {
+ /* .social-icons a {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
@@ -75,17 +75,73 @@ p.lead {
     font-size: 2rem;
     line-height: 3.5rem;
     margin-right: 1rem
-}
+} 
 
 
 .social-icons a:last-child {
     margin-right: 0
 }
 
-.social-icons a:hover {
+ .social-icons a:hover {
     background-color: var(--primario2); 
     
+}  */
+
+/* prueba de iconos  */
+
+
+.social-icons {
+    display: flex;
+    justify-content: left;
+    list-style: none;
 }
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    font-size: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.social-icons li a:hover {
+    background-image: linear-gradient(230deg, rgba(12,80,197,0.9071800595238095) 16%, rgba(79,178,21,0.8679643732492998) 81%);
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 40px;
+}
+
+.social-icons li a::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background: linear-gradient(45deg, rgba(12,80,197,0.9071800595238095) 16%, rgba(79,178,21,0.8679643732492998) 81%);
+
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.social-icons li a:hover::before {
+    transform: scale(0);
+}
+
+
+/* fina prueba de iconos */
 
 .dev-icons {
     font-size: 3rem
