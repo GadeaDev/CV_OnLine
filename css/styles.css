@@ -78,9 +78,7 @@ p.lead {
 } 
 
 
-.social-icons a:last-child {
-    margin-right: 0
-}
+
 
  .social-icons a:hover {
     background-color: var(--primario2); 
@@ -98,6 +96,9 @@ p.lead {
 
 .social-icons li {
     margin: 0 10px;
+}
+.social-icons a:last-child {
+    margin-right: 0
 }
 
 .social-icons li a {
@@ -131,7 +132,6 @@ p.lead {
     width: 70px;
     border-radius: 50%;
     background: linear-gradient(45deg, rgba(12,80,197,0.9071800595238095) 16%, rgba(79,178,21,0.8679643732492998) 81%);
-
     transform: scale(1);
     transition: 0.5s ease-in-out;
 }
@@ -147,8 +147,12 @@ p.lead {
     font-size: 3rem
 }
 
+.fa-phone {
+    color: var(--naranja)
+}
+
 .dev-icons .list-inline-item i:hover {
-    color: var(--primario2)
+    color: var(--naranja)
     
 }
 
