@@ -89,6 +89,6 @@ var person = {
     ],
     github: "https://github.com/GadeaDev",
     twitter: "https://twitter.com/Gadeaid",
-    facebook: "https://www.facebook.com/Isaac.Gadea",
+    //facebook: "https://www.facebook.com/Isaac.Gadea",
     linkedin: "https://www.linkedin.com/in/isaac-gadea/"
 };

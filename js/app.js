@@ -12,7 +12,7 @@ $(document).ready(function () {
     $('#nationality').text(person.nationality);
 
     $('#linkedin').attr('href', person.linkedin);
-    $('#facebook').attr('href', person.facebook);
+    //$('#facebook').attr('href', person.facebook);
     $('#twitter').attr('href', person.twitter);
     $('#github').attr('href', person.github);
 
